@@ -96,7 +96,7 @@ body {
 
 
 .header-link {
-        display:block;
+        position:relative;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -114,11 +114,14 @@ body {
 
 .header-link::after {
         display: none;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
         width: 48px;
         height: 4px;
         background: #404BBF;
         border-radius: 2px;
-        content: " ";
+        content: "";
         margin: 0 auto;
         margin-top: 20px;
 }
