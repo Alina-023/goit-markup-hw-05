@@ -713,3 +713,65 @@ body {
         visibility: hidden;
         pointer-events: none;
 }
+
+.form-hero{
+        
+        padding-left: 16px;
+        padding-right: 32px;
+}
+
+.form-title {
+        text-align: center;
+        padding-top: 72px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.form-label {
+
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.01em;
+        color: #8E8F99;
+        margin-bottom: 4px;
+}
+
+.form-label:not(:first-child){
+        margin-top: 8px;
+}
+
+.form-input {
+        position: relative;
+        width: 360px;
+        height: 40px;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 4px;
+}
+.textarea {
+        height: 120px;
+        width: 360px;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: rgba(46, 47, 66, 0.4);
+        padding-top: 8px;
+        padding-left: 16px;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 4px;
+        resize: none;
+       
+}
+
+.form-icons {
+        position:absolute;
+}
+
+.check-desc {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: #8E8F99;
+}
